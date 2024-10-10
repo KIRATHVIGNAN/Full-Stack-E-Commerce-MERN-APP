@@ -8,7 +8,7 @@ import AdminPanel from '../pages/AdminPanel'
 import AllUsers from '../pages/AllUsers'
 import AllProducts from '../pages/AllProducts'
 import CategoryProduct from '../pages/CategoryProduct'
-import ProductDetails from '../pages/ProductDetails'
+import ProductDetails from '../pages/ProductDetails' 
 import Cart from '../pages/Cart'
 import SearchProduct from '../pages/SearchProduct'
 
@@ -16,6 +16,7 @@ const router = createBrowserRouter([
     {
         path : "/",
         element : <App/>,
+        // element:<AllProducts/>,
         children : [
             {
                 path : "",

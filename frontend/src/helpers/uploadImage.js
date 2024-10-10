@@ -10,7 +10,7 @@ const uploadImage  = async(image) => {
         method : "post",
         body : formData
     })
-
+    // console.log(dataResponse.json())
     return dataResponse.json()
 
 }

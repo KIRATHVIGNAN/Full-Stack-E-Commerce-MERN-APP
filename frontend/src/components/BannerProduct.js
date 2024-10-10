@@ -17,6 +17,7 @@ import { FaAngleLeft } from "react-icons/fa6";
 
 
 const BannerProduct = () => {
+    console.log("banner banner");
     const [currentImage,setCurrentImage] = useState(0)
 
     const desktopImages = [
